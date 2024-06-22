@@ -12,7 +12,7 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: "ap-south-east-2"
+  region: "ap-southeast-2"
   app: "learn-deploy-docker-react"
   env: "Learn-deploy-docker-react-env"
   bucket_name: "elasticbeanstalk-ap-southeast-2-590183767841"
